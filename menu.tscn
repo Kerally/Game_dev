@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsdipsmakfe83"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_edshd"]
+[ext_resource type="Texture2D" uid="uid://dxeq3p1ulryq0" path="res://Grassy_Mountains_preview_fullcolor.png" id="1_flywu"]
+[ext_resource type="FontFile" uid="uid://cb4gxhcwdcdjj" path="res://retro-pixel-thick.ttf" id="1_kcib3"]
+[ext_resource type="AudioStream" uid="uid://b50h4rc887nwv" path="res://assets/music/main_soundtrack.mp3" id="3_3bfw2"]
+[ext_resource type="PackedScene" uid="uid://duwfoqaqe5jku" path="res://parallax_background.tscn" id="5_4s2ow"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_edshd")
+
+[node name="Background" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(989, 541.5)
+scale = Vector2(5.14583, 5.00463)
+texture = ExtResource("1_flywu")
+
+[node name="ButtonPlay" type="Button" parent="."]
+offset_left = 706.0
+offset_top = 51.0
+offset_right = 1312.0
+offset_bottom = 152.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_kcib3")
+theme_override_font_sizes/font_size = 64
+text = "Play"
+
+[node name="ButtonExit" type="Button" parent="."]
+offset_left = 703.0
+offset_top = 158.0
+offset_right = 1309.0
+offset_bottom = 253.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_kcib3")
+theme_override_font_sizes/font_size = 64
+text = "Exit
+"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_3bfw2")
+autoplay = true
+
+[node name="ButtonSound" type="Button" parent="."]
+offset_left = 1882.0
+offset_top = 13.0
+offset_right = 1911.0
+offset_bottom = 45.0
+toggle_mode = true
+flat = true
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("5_4s2ow")]
+
+[connection signal="pressed" from="ButtonPlay" to="." method="_on_button_play_pressed"]
+[connection signal="pressed" from="ButtonExit" to="." method="_on_button_exit_pressed"]

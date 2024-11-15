@@ -1,0 +1,13 @@
+CollisionShape2D
+Area2D
+Node2D
+AnimatedSprite2D
+CharacterBody2D
+TileMapLayer
+TileMap
+ParallaxLayer
+ParallaxBackground
+AnimationPlayer
+Button
+AudioStreamPlayer2D
+Camera2D

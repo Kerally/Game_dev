@@ -1,0 +1,74 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1731670408
+background.jpg::CompressedTexture2D::1990719253778477156::1729549902::1731063410::1::::<><>::
+background_glacial_mountains.png::CompressedTexture2D::5413134267156452722::1729549902::1731063409::1::::<><>::
+Grassy_Mountains_preview_fullcolor.png::CompressedTexture2D::8782885268823159249::1729549902::1731063409::1::::<><>::
+icon.svg::CompressedTexture2D::2874347815468137663::1729549902::1731063409::1::::<><>::
+idle sheet-Sheet.png::CompressedTexture2D::5789671141015399044::1729549902::1731063409::1::::<><>::
+idle.png::CompressedTexture2D::1799612713773523348::1729549902::1731063409::1::::<><>::
+itch jump sheet-Sheet.png::CompressedTexture2D::718208510874841983::1729549902::1731063409::1::::<><>::
+itch run-Sheet sheet.png::CompressedTexture2D::8700891654395385392::1729549902::1731063409::1::::<><>::
+jump.png::CompressedTexture2D::4242301760313324604::1729549902::1731063409::1::::<><>::
+menu.gd::GDScript::-1::1729549902::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::8429367856648291798::1731639134::0::1::::<><>::res://menu.gd<>uid://dxeq3p1ulryq0::::res://Grassy_Mountains_preview_fullcolor.png<>uid://cb4gxhcwdcdjj::::res://retro-pixel-thick.ttf<>uid://b50h4rc887nwv::::res://assets/music/main_soundtrack.mp3<>uid://duwfoqaqe5jku::::res://parallax_background.tscn
+mobs.gd::GDScript::-1::1731638399::0::1::::<>CharacterBody2D<>::
+mobs.tscn::PackedScene::284628313377003756::1731639135::0::1::::<><>::uid://c7m64ee1nt21o::::res://Skeleton/Take Hit.png<>uid://ctyl2apncgwiy::::res://Skeleton/Idle.png<>res://mobs.gd<>uid://j28jehondjld::::res://Skeleton/Death.png<>uid://bfoi334s7te78::::res://Skeleton/Walk.png
+parallax_background.gd::GDScript::-1::1731618686::0::1::::<>ParallaxBackground<>::
+parallax_background.tscn::PackedScene::8608784661614871100::1731639134::0::1::::<><>::res://parallax_background.gd<>uid://kf3kmnsx2bv2::::res://Layers/sky.png<>uid://b0xgk4fr0yqra::::res://Layers/cloud_lonely.png<>uid://c77reijvj6fib::::res://Layers/clouds_bg.png<>uid://bqraqhkh141gb::::res://Layers/glacial_mountains.png<>uid://co6lefxkf6e2y::::res://Layers/clouds_mg_3.png<>uid://054fko0hltka::::res://Layers/clouds_mg_2.png<>uid://cjqshgapb40ue::::res://Layers/clouds_mg_1.png
+red hood itch free.png::CompressedTexture2D::4161112069998216007::1729549902::1731063409::1::::<><>::
+retro-pixel-thick.ttf::FontFile::4903302912865109959::1729549903::1731063409::1::::<><>::
+slime.tscn::PackedScene::5888998843714309868::1731639134::0::1::::<><>::uid://dxeq3p1ulryq0::::res://Grassy_Mountains_preview_fullcolor.png<>uid://l1hv2xb6c1n5::::res://oak_woods_v1.0/oak_woods_tileset.png<>uid://dbt7v4uylinw4::::res://player/player.tscn<>uid://b50h4rc887nwv::::res://assets/music/main_soundtrack.mp3<>uid://eb410p5pdmjc::::res://mobs.tscn
+spring_.png::CompressedTexture2D::2179842646538515436::1729549903::1731063409::1::::<><>::
+trava.png::CompressedTexture2D::4267906414393512370::1729549903::1731063409::1::::<><>::
+::res://assets/::1729549906
+::res://assets/characters/::1729549906
+::res://assets/characters/animation/::1727775068
+::res://assets/characters/static/::1727775074
+::res://assets/music/::1731063409
+main_soundtrack.mp3::AudioStreamMP3::4544173141189477093::1729549906::1731063409::1::::<><>::
+::res://assets/sfx/::1727774986
+::res://assets/tilemaps/::1727774974
+::res://Layers/::1731617656
+clouds_bg.png::CompressedTexture2D::7085984219043237005::1727734422::1731617656::1::::<><>::
+clouds_mg_1.png::CompressedTexture2D::5438676726444718568::1727734422::1731617656::1::::<><>::
+clouds_mg_1_lightened.png::CompressedTexture2D::3060199982186274575::1727734422::1731617656::1::::<><>::
+clouds_mg_2.png::CompressedTexture2D::1818422693338812680::1727734422::1731617656::1::::<><>::
+clouds_mg_3.png::CompressedTexture2D::5820156217400071430::1727734422::1731617656::1::::<><>::
+cloud_lonely.png::CompressedTexture2D::4189006154590882482::1727734422::1731617656::1::::<><>::
+glacial_mountains.png::CompressedTexture2D::3544565559888571677::1727734422::1731617656::1::::<><>::
+glacial_mountains_lightened.png::CompressedTexture2D::6285015797602364652::1727734422::1731617656::1::::<><>::
+sky.png::CompressedTexture2D::713928910099428273::1727734422::1731617656::1::::<><>::
+sky_lightened.png::CompressedTexture2D::3841894829575212659::1727734422::1731617656::1::::<><>::
+::res://oak_woods_v1.0/::1731621073
+oak_woods_tileset.png::CompressedTexture2D::826215075993204896::1731621071::1731621073::1::::<><>::
+readme.TXT::TextFile::-1::1731621071::0::1::::<><>::
+::res://oak_woods_v1.0/background/::1731621074
+background_layer_1.png::CompressedTexture2D::2956193713874720345::1731621071::1731621074::1::::<><>::
+background_layer_2.png::CompressedTexture2D::582384917178899032::1731621071::1731621074::1::::<><>::
+background_layer_3.png::CompressedTexture2D::6714000507239779233::1731621071::1731621074::1::::<><>::
+::res://oak_woods_v1.0/character/::1731621074
+char_blue.png::CompressedTexture2D::3601711578140635041::1731621071::1731621074::1::::<><>::
+::res://oak_woods_v1.0/decorations/::1731621074
+fence_1.png::CompressedTexture2D::1405446914344778458::1731621071::1731621074::1::::<><>::
+fence_2.png::CompressedTexture2D::6864552374848000734::1731621071::1731621074::1::::<><>::
+grass_1.png::CompressedTexture2D::4515799548134894802::1731621071::1731621074::1::::<><>::
+grass_2.png::CompressedTexture2D::1628231974776495584::1731621071::1731621074::1::::<><>::
+grass_3.png::CompressedTexture2D::83511250586476534::1731621071::1731621073::1::::<><>::
+lamp.png::CompressedTexture2D::1604360713190103789::1731621071::1731621073::1::::<><>::
+rock_1.png::CompressedTexture2D::8608098980850118814::1731621071::1731621074::1::::<><>::
+rock_2.png::CompressedTexture2D::7965819363152176847::1731621071::1731621073::1::::<><>::
+rock_3.png::CompressedTexture2D::4055943525040610760::1731621071::1731621073::1::::<><>::
+shop.png::CompressedTexture2D::7448187515014775532::1731621071::1731621073::1::::<><>::
+shop_anim.png::CompressedTexture2D::4082244110318877603::1731621071::1731621073::1::::<><>::
+sign.png::CompressedTexture2D::1779642337611939286::1731621071::1731621073::1::::<><>::
+::res://player/::1731639134
+player.gd::GDScript::-1::1729549906::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::7270656072663723565::1731639134::0::1::::<><>::res://player/player.gd<>uid://b1padciuswgn1::::res://jump.png<>uid://0v0mgnjhpo17::::res://idle.png<>uid://b0jw54qal1kip::::res://red hood itch free.png
+::res://scripts/::1727775106
+::res://Skeleton/::1731631782
+Attack.png::CompressedTexture2D::7518065226065073797::1731631780::1731631782::1::::<><>::
+Death.png::CompressedTexture2D::689457746568971269::1731631780::1731631782::1::::<><>::
+Idle.png::CompressedTexture2D::6156690589727776304::1731631780::1731631782::1::::<><>::
+Shield.png::CompressedTexture2D::8248218671049543473::1731631781::1731631782::1::::<><>::
+Take Hit.png::CompressedTexture2D::7045591129123048598::1731631781::1731631782::1::::<><>::
+Walk.png::CompressedTexture2D::2766803444926053641::1731631781::1731631782::1::::<><>::
